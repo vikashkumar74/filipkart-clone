@@ -1,0 +1,508 @@
+body{
+    margin: 0%;
+    padding: 0px;
+    background-color: rgb(203, 241, 241);
+}
+
+      /* navigation */
+.navigation {
+    display: flex;
+    background-color: blue;
+width: 100%;
+height: 60px;
+}
+
+.navigation img{
+display: block;
+/* border: 2px solid black; */
+padding: 10px 90px;
+padding-right: 12px;
+}
+
+.navigation input{
+/* border: 2px solid black; */
+font-size: 20px;
+margin: 6px 4px;
+width: 40%;
+padding: 5px 5px;
+}
+
+.navigation ul{
+display: flex;
+text-decoration: none;
+}
+
+/* .search{
+position: relative;
+left: 4px;
+width: 3%;
+background:url(/filipkard_img/search-512.webp);
+} */
+
+#search{
+position: absolute;
+top: 1.5%;
+left: 52%;
+right: 10%;
+border: none;
+margin: 6px 4px;
+color: white;
+background: url(/filipkart_img/search-512\ \(1\).webp);
+background-size: 100%;
+background-repeat: no-repeat;
+width:2%;
+height: 4%;
+
+}
+
+#search:hover{
+cursor: pointer;
+background-color: rgb(165, 45, 45);
+}
+
+
+.navigation .log{
+margin: 6px 23px;
+cursor: pointer;
+font-size: 20px;
+width: 10%}
+.navigation  a{
+margin: auto 16px;
+color: white;
+font-size: 20px;
+text-decoration: none;
+}
+
+.navigation  li {
+list-style: none;
+
+}
+.navigation a:hover{
+color: red;
+cursor: pointer;
+
+}
+
+.sub_menu1{
+    display: none;
+}
+
+.navigation  .log:hover .sub_menu1 {
+    display: block;
+    position: absolute;
+    margin-top: 20ppx;
+    margin-left: -15px;
+    color: rgb(10, 9, 9);
+    background-color: rgb(216, 216, 230);
+    }
+
+    .navigation  .log:hover .sub_menu1 ul{
+        display: block;
+        margin-top: 20px;
+        padding: 4px 4px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .navigation  .log:hover .sub_menu1 ul li{
+        width: 190px;
+        padding: 10px;
+        color: black;
+        border-bottom: 1px solid #fff;
+        background: transparent;
+        border-radius: 0px;
+        text-align: center;
+        justify-content: center;
+        list-style: none;
+        
+    }
+   
+.sub_menu2{
+display: none;
+}
+
+.navigation ul li:hover .sub_menu2 {
+display: block;
+position: absolute;
+margin-top: 20ppx;
+margin-left: -15px;
+color: rgb(10, 9, 9);
+background-color: rgb(216, 216, 230);
+}
+
+.navigation ul li:hover .sub_menu2 ul{
+display: block;
+margin-top: 20px;
+padding: 4px 4px;
+text-align: center;
+justify-content: center;
+}
+
+.navigation ul li:hover .sub_menu2 ul  li{
+width: 170px;
+padding: 10px;
+border-bottom: 1px solid #fff;
+background: transparent;
+border-radius: 0px;
+text-align: left;
+justify-content: center;
+}
+
+.navigation  .log:hover .sub_menu1 ul li:last-child,.navigation ul li:hover .sub_menu2 ul  li:last-child{
+    border: none;
+}
+
+/* box section */
+/* container2 section */
+
+.container2{
+display: flex;
+width: 99.5%;
+height: 100px;
+/* border: 2px solid black; */
+margin: auto;
+justify-content: center;
+background-color: white;
+text-decoration: none;
+}
+
+.products{
+display: block;
+text-align: center;
+font-size: 16px;
+/* color: black; */
+}
+
+.container2 img{
+width: 60%;
+display: block;
+margin: auto;
+/* justify-content: space-evenly; */
+}
+
+.container2 a:hover{
+color: blue;
+cursor: pointer;
+}
+
+.container2 a{
+text-decoration: none;
+color: black;
+}
+
+.menu_bar{
+    display: none;
+    }
+
+    .container2  .pro:hover .menu_bar{
+        display: block;
+    position: absolute;
+    margin-top: 20ppx;
+    margin-left: -15px;
+    color: rgb(10, 9, 9);
+    background-color: rgb(216, 216, 230);
+    
+    }
+    .container2  .pro:hover .menu_bar ul {
+        display: block;
+        margin-top: 20px;
+        padding: 4px 4px;
+        text-align: center;
+        justify-content: center;
+       
+    }
+    .container2  .pro:hover .menu_bar ul li{
+        width: 170px;
+    padding: 10px;
+    border-bottom: 1px solid #e1dcdc;
+    /* background: transparent; */
+    border-radius: 0px;
+    text-align: left;
+    justify-content: center;
+    list-style: none;
+    }
+    .container2 .pro:hover{
+        color: rgb(0, 0, 137);
+        cursor: pointer;
+    }
+   
+    .container2  #pro:hover .fashion_menu1 ul li:last-child{
+        border: none;
+    }
+    .menu_bar-2{
+        display: none;
+        }
+        .hover_me:hover .menu_bar-2{
+            position: absolute;
+            display: block;
+margin-top:-15;
+margin-left: 180px;
+background-color: white;
+        }
+
+/* container3  section   */
+
+.container3{
+width: 99%;
+height: 300px;
+margin: 6px auto;
+animation: image ;
+animation-duration: 30s;
+background-image: url(/filipkart_img/01.webp);
+animation-iteration-count: infinite;
+animation-delay: 4s;
+}
+
+@keyframes image {
+
+25%{
+background: url(/filipkart_img/02.webp);
+
+}
+50%{
+background: url(/filipkart_img/02.webp);
+}
+75%{
+background: url(/filipkart_img/03.webp);
+}
+100%{
+background: url(/filipkart_img/04.webp);
+}  
+}
+
+/* section_1 */
+
+#items_1{
+/* border: 2px solid red; */
+float: left;
+width: 16%;
+height: 310px;
+margin-top: 18px;
+margin-left: 8px;
+background-color: rgb(203, 20, 130);
+font-size: 25px;
+text-align: center;
+}
+
+#items_1 button,#items_1 a{
+border: none;
+font-size: 20px;
+text-decoration: none;
+color: white;
+background-color: blue;
+}
+                      /* container4 section       */ 
+
+
+
+.container4{
+display: flex;
+float: left;
+background-color: white;
+width: 83%;
+text-align: center;
+margin-top: 18px;
+/* margin-left: 8px; */
+height: 310px;
+/* border: 2px solid red; */
+justify-content: space-evenly;
+transition: 1s;
+
+}
+.container4 a,.container5 a{
+text-decoration: none;
+font-size: 18px;
+}
+.container4 img{
+/* border: 2px solid red; */
+display: block;
+width: 80%;
+/* margin: 4px auto; */
+border-radius: 12px;
+margin: 23px auto;
+}
+.about{
+font-size: 17px;
+display: block;
+text-align: center;
+font-size: 20px;
+color: black;
+
+}
+.about1{
+color: green;
+margin-top: 8px;
+display:inline-block ;
+}
+
+.about2{
+font-size: 17px;
+color: rgb(232, 212, 212);
+
+}
+#items_2{
+/* border: 2px solid red; */
+display: block;
+float: left;
+width: 16%;
+height: 310px;
+margin-top: 18px;
+margin-left: 8px;
+background-color: rgb(65, 149, 93);
+font-size: 25px;
+text-align: center;
+justify-content: space-evenly;
+}
+
+#items_2 button,#items_2 a{
+border: none;
+font-size: 20px;
+text-decoration: none;
+color: white;
+background-color: blue;
+}
+   
+/* container5 section */
+
+.container5{
+display: flex;
+float: left;
+background-color: white;
+width: 83%;
+text-align: center;
+margin-top: 18px;
+/* margin-left: 2px; */
+height: 310px;
+/* border: 2px solid red; */
+justify-content: space-evenly;
+transition: 1s;
+
+}
+.container5 img{
+/* border: 2px solid red; */
+margin-bottom:23px ;
+display: block;
+margin:23px auto ;
+border-radius: 12px;
+} 
+
+
+/* container6 section */
+
+
+.container6{
+display: inline-block;
+background-color: white;
+margin-top: 18px;
+/* margin-left: 8px; */
+/* border: 2px solid red; */
+text-align: left;
+
+}
+.container6 p,h3,h2,h1,h4,h5{
+margin-left: 10px;
+}
+
+.brands{
+display: inline-block;
+margin-top: 12px;
+text-align: left;
+}
+.brands a{
+color: black;
+border-right: 1px solid rgb(12, 12, 12);
+margin:  4px;
+margin-top: 19px;
+padding: 0px 6px;
+text-decoration: none;
+}
+
+/* footer section */
+
+footer{
+display: block;
+width: 100%;
+
+background-color:#172337;
+
+/* margin-left: 8px; */
+/* border: 2px solid red; */
+text-align: left;
+}
+.container7{
+    /* border: 3px solid yellow; */
+    display: flex;
+    width: 100%;
+}
+.box{ 
+  
+
+flex-direction: column;
+
+margin: 20px 0px;
+padding: 20px 19px;
+text-align: left;
+color:#878787;
+width: 9%;
+
+}
+
+.box1{ 
+  
+    display: block;
+    margin: 20px 0px;
+    padding: 20px 3px;
+    text-align: left;
+    color:#878787;
+    width: 20%;
+    
+    
+    }
+
+    .box1 p{
+        color: white;
+    }
+.b2{
+
+ padding-left: 40px;
+}
+.border{
+    border-left: 2px solid #454d5e;
+}
+.container7 a{
+  display: block;
+    margin: 4px 4px;
+padding: 25p 25px;
+
+color: white;
+text-decoration: none;
+}
+.container7 a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.bottom{
+    display: flex;
+    /* border: 2px solid red; */
+    margin: 2px 8px;
+    padding: 25px;
+    
+    
+    justify-content: space-evenly;
+}
+.bottom a{
+    color: white;
+    text-decoration: none;
+}
+.bottom img{
+   padding-right: 15px;
+ 
+}
+.visit{
+    color: white;
+}
+.container4 img:hover,.container5 img:hover{
+transform:scale(1.1);
+z-index:2;
+cursor: pointer;
+}
